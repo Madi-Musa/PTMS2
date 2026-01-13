@@ -1,8 +1,8 @@
 public class Trip {
     private int id;
-    private int busId;     // foreign key
-    private int driverId;  // foreign key
-    private int routeId;   // foreign key
+    private int busId;
+    private int driverId;
+    private int routeId;
     private String tripDate;
 
     public Trip(int id, int busId, int driverId, int routeId, String tripDate) {
