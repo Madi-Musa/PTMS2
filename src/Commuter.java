@@ -3,7 +3,8 @@ public class Commuter {
     private String name;
     private double cardBalance;
 
-    public Commuter(String name, double cardBalance) {
+    public Commuter(int id, String name, double cardBalance) {
+        this.id = id;
         this.name = name;
         this.cardBalance = cardBalance;
     }
