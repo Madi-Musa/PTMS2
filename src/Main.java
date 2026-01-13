@@ -11,7 +11,6 @@ public class Main {
 
             PTMS2DAO dao = new PTMS2DAO(conn);
 
-            // INSERT DATA
             dao.insertDepot("Central Depot", "Almaty");
             dao.insertDriver("Askar", 5);
             dao.insertRoute("A", "B", 15);
