@@ -1,7 +1,7 @@
 public class Payment {
     private int id;
-    private int commuterId; // foreign key
-    private int tripId;     // foreign key
+    private int commuterId;
+    private int tripId;
     private double amount;
     private String paymentTime;
 
